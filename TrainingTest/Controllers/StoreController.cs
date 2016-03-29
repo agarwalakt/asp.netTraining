@@ -17,7 +17,7 @@ namespace TrainingTest.Controllers
         public ActionResult Details()
         {
             ViewBag.Message = "This is sent from the controller";
-            return View();
+            return View();//return a view and send a message to the view from the controller using viewbagmessage
         }
     }
 }
